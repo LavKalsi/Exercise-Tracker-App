@@ -4,6 +4,8 @@ A clean, offline Android gym tracker — schedule workouts by day, log sets with
 
 Created by **Lav Kalsi**
 
+[Download APK — v1.0](apkfile/GymTrackerV1.apk)
+
 <br/>
 
 ## Home
