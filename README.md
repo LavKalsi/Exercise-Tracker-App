@@ -6,15 +6,11 @@ Created by **Lav Kalsi**
 
 [Download APK — v1.0](apkfile/GymTrackerV1.apk)
 
-<br/>
-
 ## Home
 
 <img src="screenshots/Home.jpeg" width="280"/>
 
 The home screen shows today's workout split into two panels — exercises still to do and exercises already completed. Tap the checkmark on any exercise to log your reps and weight for that set. You can also drag an exercise across panels. Warmup exercises are pinned to the top of the list with a warmup label. The counters at the top of each panel update as you work through your session.
-
-<br/>
 
 ## Analysis
 
@@ -22,15 +18,11 @@ The home screen shows today's workout split into two panels — exercises still 
 
 The analysis page gives a full picture of your training over the last week, 6 months, or 4 years. At the top you get three stat cards showing total workouts completed, total reps logged, and your current daily streak. Below that are animated bar charts for workout volume and total reps per period, a donut pie chart breaking down which muscle groups you have been training, a horizontal bar chart for reps by muscle group, and a ranked list of your top 5 most completed exercises with their rep totals.
 
-<br/>
-
 ## History
 
 <img src="screenshots/History.jpeg" width="280"/>
 
 The history screen lets you browse every past workout session by date. Each entry shows the exercise name alongside its completion status, and if you logged reps and weight those are shown too — for example "Done · 12 reps · 80kg". Dates that have recorded sessions are highlighted so you can quickly jump to any day.
-
-<br/>
 
 ## Features
 
@@ -42,8 +34,6 @@ The history screen lets you browse every past workout session by date. Each entr
 - Workout History — Browse every past session by date with reps and weight per exercise
 - Theming — Six color presets (Slate, Ocean, Forest, Rose, Amber, Violet) with Dark, Blue, and White background styles
 - Safe Migrations — SQLite upgrades with ALTER TABLE so your data is never wiped on update
-
-<br/>
 
 ## Tech Stack
 
@@ -57,8 +47,6 @@ The history screen lets you browse every past workout session by date. Each entr
 | Navigation | Fragment back stack |
 | Min SDK | 33 (Android 13) |
 
-<br/>
-
 ## Getting Started
 
 1. Clone the repo
@@ -70,8 +58,6 @@ The history screen lets you browse every past workout session by date. Each entr
 4. Run on a device or emulator (API 33+)
 
 No API keys, no backend, no account needed — fully offline.
-
-<br/>
 
 ## Project Structure
 
@@ -87,8 +73,6 @@ app/src/main/java/com/example/gymtracker/
 └── viewmodel/
     └── MainViewModel.kt        # Single shared ViewModel
 ```
-
-<br/>
 
 ## License
 
