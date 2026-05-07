@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBgColor" format="color" />
+    <attr name="appSurfaceColor" format="color" />
+    <attr name="appCardColor" format="color" />
+    <attr name="appOnSurfaceColor" format="color" />
+    <attr name="appOnSurfaceVariantColor" format="color" />
+    <attr name="appGlassColor" format="color" />
+    <attr name="appGlassStrokeColor" format="color" />
+</resources>

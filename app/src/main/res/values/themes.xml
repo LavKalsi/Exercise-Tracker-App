@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Base background styles ─────────────────────────────────────────── -->
+    <style name="Base.BgDark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/surface_dark</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="appBgColor">@color/bg_dark</item>
+        <item name="appSurfaceColor">@color/surface_dark</item>
+        <item name="appCardColor">#B3334155</item>
+        <item name="appOnSurfaceColor">#E2E8F0</item>
+        <item name="appOnSurfaceVariantColor">#94A3B8</item>
+        <item name="appGlassColor">#28FFFFFF</item>
+        <item name="appGlassStrokeColor">#33FFFFFF</item>
+        <item name="colorPrimary">@color/slate_primary</item>
+        <item name="colorAccent">@color/slate_primary</item>
+        <item name="colorOnSurface">#E2E8F0</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="Base.BgBlue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_blue</item>
+        <item name="android:statusBarColor">@color/bg_blue</item>
+        <item name="android:navigationBarColor">@color/surface_blue</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="appBgColor">@color/bg_blue</item>
+        <item name="appSurfaceColor">@color/surface_blue</item>
+        <item name="appCardColor">#B3112240</item>
+        <item name="appOnSurfaceColor">#E2E8F0</item>
+        <item name="appOnSurfaceVariantColor">#94A3B8</item>
+        <item name="appGlassColor">#28FFFFFF</item>
+        <item name="appGlassStrokeColor">#33FFFFFF</item>
+        <item name="colorPrimary">@color/slate_primary</item>
+        <item name="colorAccent">@color/slate_primary</item>
+        <item name="colorOnSurface">#E2E8F0</item>
+        <item name="colorSurface">@color/surface_blue</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="Base.BgWhite" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_white</item>
+        <item name="android:statusBarColor">@color/bg_white</item>
+        <item name="android:navigationBarColor">@color/surface_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="appBgColor">@color/bg_white</item>
+        <item name="appSurfaceColor">@color/surface_white</item>
+        <item name="appCardColor">#FFE2E8F0</item>
+        <item name="appOnSurfaceColor">#0F172A</item>
+        <item name="appOnSurfaceVariantColor">#475569</item>
+        <item name="appGlassColor">#1A334155</item>
+        <item name="appGlassStrokeColor">#33475569</item>
+        <item name="colorPrimary">#475569</item>
+        <item name="colorAccent">#475569</item>
+        <item name="colorOnSurface">#0F172A</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <!-- ── Dark background × accent ──────────────────────────────────────── -->
+    <style name="Theme.GymTracker" parent="Base.BgDark">
+        <item name="colorPrimary">@color/slate_primary</item>
+        <item name="colorPrimaryDark">@color/slate_primary_dark</item>
+        <item name="colorAccent">@color/slate_primary</item>
+        <item name="colorOnSurface">#E2E8F0</item>
+        <item name="colorSurface">@color/surface_blue</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+    <style name="Theme.GymTracker.Dark.Ocean" parent="Base.BgDark">
+        <item name="colorPrimary">#0369A1</item>
+        <item name="colorPrimaryDark">#075985</item>
+        <item name="colorAccent">#0369A1</item>
+    </style>
+    <style name="Theme.GymTracker.Dark.Forest" parent="Base.BgDark">
+        <item name="colorPrimary">#166534</item>
+        <item name="colorPrimaryDark">#14532D</item>
+        <item name="colorAccent">#166534</item>
+    </style>
+    <style name="Theme.GymTracker.Dark.Rose" parent="Base.BgDark">
+        <item name="colorPrimary">#BE123C</item>
+        <item name="colorPrimaryDark">#9F1239</item>
+        <item name="colorAccent">#BE123C</item>
+    </style>
+    <style name="Theme.GymTracker.Dark.Amber" parent="Base.BgDark">
+        <item name="colorPrimary">#B45309</item>
+        <item name="colorPrimaryDark">#92400E</item>
+        <item name="colorAccent">#B45309</item>
+    </style>
+    <style name="Theme.GymTracker.Dark.Violet" parent="Base.BgDark">
+        <item name="colorPrimary">#6D28D9</item>
+        <item name="colorPrimaryDark">#5B21B6</item>
+        <item name="colorAccent">#6D28D9</item>
+    </style>
+
+    <!-- ── Blue background × accent ──────────────────────────────────────── -->
+    <style name="Theme.GymTracker.Blue.Slate" parent="Base.BgBlue">
+        <item name="colorPrimary">@color/slate_primary</item>
+        <item name="colorPrimaryDark">@color/slate_primary_dark</item>
+        <item name="colorAccent">@color/slate_primary</item>
+        <item name="colorOnSurface">#E2E8F0</item>
+        <item name="colorSurface">@color/surface_blue</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+    <style name="Theme.GymTracker.Blue.Ocean" parent="Base.BgBlue">
+        <item name="colorPrimary">#38BDF8</item>
+        <item name="colorPrimaryDark">#0EA5E9</item>
+        <item name="colorAccent">#38BDF8</item>
+    </style>
+    <style name="Theme.GymTracker.Blue.Forest" parent="Base.BgBlue">
+        <item name="colorPrimary">#4ADE80</item>
+        <item name="colorPrimaryDark">#22C55E</item>
+        <item name="colorAccent">#4ADE80</item>
+    </style>
+    <style name="Theme.GymTracker.Blue.Rose" parent="Base.BgBlue">
+        <item name="colorPrimary">#FB7185</item>
+        <item name="colorPrimaryDark">#F43F5E</item>
+        <item name="colorAccent">#FB7185</item>
+    </style>
+    <style name="Theme.GymTracker.Blue.Amber" parent="Base.BgBlue">
+        <item name="colorPrimary">#FBBF24</item>
+        <item name="colorPrimaryDark">#F59E0B</item>
+        <item name="colorAccent">#FBBF24</item>
+    </style>
+    <style name="Theme.GymTracker.Blue.Violet" parent="Base.BgBlue">
+        <item name="colorPrimary">#A78BFA</item>
+        <item name="colorPrimaryDark">#8B5CF6</item>
+        <item name="colorAccent">#A78BFA</item>
+    </style>
+
+    <!-- ── White background × accent ─────────────────────────────────────── -->
+    <style name="Theme.GymTracker.White.Slate" parent="Base.BgWhite">
+        <item name="colorPrimary">#475569</item>
+        <item name="colorPrimaryDark">#334155</item>
+        <item name="colorAccent">#475569</item>
+        <item name="colorOnSurface">#0F172A</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+    <style name="Theme.GymTracker.White.Ocean" parent="Base.BgWhite">
+        <item name="colorPrimary">#0369A1</item>
+        <item name="colorPrimaryDark">#075985</item>
+        <item name="colorAccent">#0369A1</item>
+    </style>
+    <style name="Theme.GymTracker.White.Forest" parent="Base.BgWhite">
+        <item name="colorPrimary">#166534</item>
+        <item name="colorPrimaryDark">#14532D</item>
+        <item name="colorAccent">#166534</item>
+    </style>
+    <style name="Theme.GymTracker.White.Rose" parent="Base.BgWhite">
+        <item name="colorPrimary">#BE123C</item>
+        <item name="colorPrimaryDark">#9F1239</item>
+        <item name="colorAccent">#BE123C</item>
+    </style>
+    <style name="Theme.GymTracker.White.Amber" parent="Base.BgWhite">
+        <item name="colorPrimary">#B45309</item>
+        <item name="colorPrimaryDark">#92400E</item>
+        <item name="colorAccent">#B45309</item>
+    </style>
+    <style name="Theme.GymTracker.White.Violet" parent="Base.BgWhite">
+        <item name="colorPrimary">#6D28D9</item>
+        <item name="colorPrimaryDark">#5B21B6</item>
+        <item name="colorAccent">#6D28D9</item>
+    </style>
+
+    <style name="SearchInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/search_box_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxBackgroundColor">?attr/appGlassColor</item>
+        <item name="hintTextColor">?attr/appOnSurfaceVariantColor</item>
+        <item name="android:textColorHint">?attr/appOnSurfaceVariantColor</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@null</item>
+    </style>
+
+</resources>

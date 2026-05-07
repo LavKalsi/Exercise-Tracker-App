@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_rounded"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theme"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/appOnSurfaceColor"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Background section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Background"
+            android:textSize="12sp"
+            android:textColor="?attr/appOnSurfaceVariantColor"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:id="@+id/bgDark"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF000000"
+                    android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Dark" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/bgBlue"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF0D1B2E"
+                    android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Blue" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/bgWhite"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FFF1F5F9"
+                    android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="White" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Accent section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accent Color"
+            android:textSize="12sp"
+            android:textColor="?attr/appOnSurfaceVariantColor"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Accent row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout android:id="@+id/themeSlate"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF64748B" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Slate" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/themeOcean"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF0369A1" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Ocean" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/themeForest"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF166534" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Forest" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Accent row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:id="@+id/themeRose"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FFBE123C" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Rose" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/themeAmber"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp" android:layout_marginEnd="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FFB45309" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Amber" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/themeViolet"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="6dp"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="10dp" android:background="@drawable/bg_glass_card">
+                <View android:layout_width="36dp" android:layout_height="36dp"
+                    android:background="@drawable/bg_color_preview"
+                    android:backgroundTint="#FF6D28D9" android:layout_marginBottom="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Violet" android:textSize="12sp" android:textColor="?attr/appOnSurfaceVariantColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Close"
+            style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+    </LinearLayout>
+
+</ScrollView>

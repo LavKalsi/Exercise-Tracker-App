@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_glass_card">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Warmup badge — only visible when isWarmup = true -->
+        <TextView
+            android:id="@+id/tvWarmupBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 Warmup"
+            android:textSize="10sp"
+            android:textColor="?attr/colorPrimary"
+            android:background="@drawable/bg_tag"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="?attr/appOnSurfaceColor"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="?attr/appOnSurfaceVariantColor"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <!-- Tap to mark done -->
+    <ImageButton
+        android:id="@+id/btnDone"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_check"
+        android:background="@android:color/transparent"
+        android:contentDescription="Mark as done"
+        android:padding="6dp" />
+
+</LinearLayout>

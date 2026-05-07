@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Slate (default) -->
+    <color name="slate_primary">#64748B</color>
+    <color name="slate_primary_dark">#475569</color>
+
+    <!-- Surfaces — Dark -->
+    <color name="bg_dark">#000000</color>
+    <color name="surface_dark">#000000</color>
+    <color name="surface_variant">#334155</color>
+    <color name="outline">#475569</color>
+
+    <!-- Surfaces — Blue -->
+    <color name="bg_blue">#0D1B2E</color>
+    <color name="surface_blue">#112240</color>
+
+    <!-- Surfaces — White -->
+    <color name="bg_white">#F1F5F9</color>
+    <color name="surface_white">#F8FAFC</color>
+
+    <!-- Text -->
+    <color name="on_surface">#E2E8F0</color>
+    <color name="on_surface_variant">#94A3B8</color>
+
+    <!-- Semantic -->
+    <color name="color_done">#4ADE80</color>
+    <color name="color_pending">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="nav_ripple">#1564748B</color>
+    <color name="transparent">#00000000</color>
+</resources>

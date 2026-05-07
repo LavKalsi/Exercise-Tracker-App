@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_rounded">
+
+    <!-- Exercise name -->
+    <TextView
+        android:id="@+id/tvExerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="?attr/appOnSurfaceColor"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log your set"
+        android:textSize="12sp"
+        android:textColor="?attr/appOnSurfaceVariantColor"
+        android:layout_marginBottom="20dp" />
+
+    <!-- ── REPS section ──────────────────────────────────────────────────── -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textColor="?attr/appOnSurfaceVariantColor"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+
+        <!-- Minus -->
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="−"
+            android:textSize="20sp"
+            android:padding="0dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+        <!-- Direct text input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etReps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Reps"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="?attr/appOnSurfaceColor"
+                android:gravity="center"
+                android:maxLength="4"
+                android:paddingVertical="8dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Plus -->
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="+"
+            android:textSize="20sp"
+            android:padding="0dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+    </LinearLayout>
+
+    <!-- ── WEIGHT section ────────────────────────────────────────────────── -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEIGHT (kg)"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textColor="?attr/appOnSurfaceVariantColor"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <!-- Minus 2.5 -->
+        <Button
+            android:id="@+id/btnWeightMinus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="−"
+            android:textSize="20sp"
+            android:padding="0dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+        <!-- Direct text input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kg"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionDone"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="?attr/appOnSurfaceColor"
+                android:gravity="center"
+                android:maxLength="6"
+                android:paddingVertical="8dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Plus 2.5 -->
+        <Button
+            android:id="@+id/btnWeightPlus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="+"
+            android:textSize="20sp"
+            android:padding="0dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+    </LinearLayout>
+
+    <!-- ── Action buttons ────────────────────────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:layout_marginEnd="8dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Set ✓"
+            style="@style/Widget.MaterialComponents.Button" />
+
+    </LinearLayout>
+
+</LinearLayout>

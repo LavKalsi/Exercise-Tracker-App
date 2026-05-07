@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topbar_padding_start">20dp</dimen>
+    <dimen name="topbar_padding_end">12dp</dimen>
+    <dimen name="topbar_padding_top">14dp</dimen>
+    <dimen name="topbar_padding_bottom">14dp</dimen>
+</resources>
